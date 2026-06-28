@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>مفاجأة!</title>
+<style>
+body{
+  background:#111;
+  color:red;
+  text-align:center;
+  font-family:Arial;
+  margin-top:100px;
+}
+</style>
+</head>
+<body>
+<h1>⚠️ جاري فحص الجهاز...</h1>
+<p>...</p>
+
+<script>
+setTimeout(() => {
+  document.body.innerHTML = `
+  <h1 style="color:lime;">😂 مقلب!</h1>
+  <p>لا تخاف، ما صار أي شيء بجهازك.</p>`;
+}, 3000);
+</script>
+</body>
+</html>
